@@ -73,7 +73,7 @@ export const Footer: React.FC<{
             <LinkBar>
                 <Link href="https://aexol.com/" external>
                     <p>
-                        Made by <strong>Aexol</strong>
+                        Made by <strong>DemoFooterAgency</strong>
                     </p>
                 </Link>
             </LinkBar>
