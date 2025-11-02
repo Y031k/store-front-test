@@ -60,7 +60,7 @@ export const ProductTile: React.FC<{
                         <ProductName>{product.productName}</ProductName>
                     </Link>
                 </Stack>
-                <ProductPrice gap="0.25rem">
+                <ProductPrice gap="0.35rem">
                     <ProductPriceValue>{priceValue}</ProductPriceValue>
                 </ProductPrice>
             </Stack>
@@ -77,12 +77,12 @@ const Categories = styled(Stack)`
 const ProductName = styled.div`
     font-weight: 400;
     color: ${p => p.theme.gray(900)};
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 `;
 
 const CategoryBlock = styled(Link)`
     padding: 1rem;
-
+	 visibility: hidden;  // can be uncommented to show category blocks
     background-color: ${({ theme }) => theme.tile.background};
 
     @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
@@ -93,10 +93,12 @@ const CategoryBlock = styled(Link)`
 `;
 
 const ProductPrice = styled(Stack)`
-    font-size: 1.25rem;
+    font-size: 2rem;
+	 
 `;
 const ProductPriceValue = styled(Stack)`
-    font-weight: 400;
+    font-weight: 700;
+
 `;
 const Main = styled(Stack)`
     font-size: 1.5rem;

@@ -69,7 +69,7 @@ const defaultThemeFunction = (hue: number) => ({
     accent: (l: Level) => `lch(${100.0 - l / 10.0}% ${l / 10.0} ${hue});`,
     gray: (g: Level) => `lch(${100.0 - g / 10.0}% 0 0);`,
     grayAlpha: (g: Level, alpha: number) => `lch(${100.0 - g / 10.0}% 0 0 / ${alpha});`,
-    borderRadius: '1rem',
+    borderRadius: '2rem',
 });
 
 type Emotional = {
