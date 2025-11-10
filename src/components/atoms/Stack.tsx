@@ -7,7 +7,8 @@ export const Stack = styled.div<BaseFlexParams>`
     flex-direction: ${p => (p.column ? (p.reverse ? 'column-reverse' : 'column') : p.reverse ? 'row-reverse' : 'row')};
     flex-wrap: ${p => (p.flexWrap ? 'wrap' : 'nowrap')};
     justify-content: ${p =>
-        p.justifyBetween ? 'space-between' : p.justifyCenter ? 'center' : p.justifyEnd ? 'end' : 'start'};
+		p.justifyBetween ? 'space-between' : p.justifyCenter ? 'center' : p.justifyEnd ? 'end' : 'start'};
     align-items: ${p => (p.itemsCenter ? 'center' : p.itemsStart ? 'flex-start' : p.itemsEnd ? 'flex-end' : 'initial')};
-    width: ${p => (p.w100 ? '100%' : 'auto')};
+    width: ${p => (p.w100 ? '100%' : p.w25 ? '25%' : 'auto')};
+	 margin-right: ${p => (p.marginRight5 ? '5rem' : 'initial')};
 `;

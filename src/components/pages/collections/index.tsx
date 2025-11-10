@@ -73,7 +73,7 @@ const CollectionPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> =
                                             <X />
                                         </IconButton>
                                     </Stack>
-                                    <Stack column>
+                                    <Stack column >
                                         {facetValues?.map(f => (
                                             <FacetFilterCheckbox
                                                 facet={f}
@@ -109,9 +109,30 @@ const CollectionPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> =
                             <SortBy sort={sort} handleSort={handleSort} />{' '}
                         </Stack>
                     </Wrapper>
+						  <Devide>
+							
+						  <Stack column marginRight5>
+                                        {facetValues?.map(f => (
+                                            <FacetFilterCheckbox
+                                                facet={f}
+                                                key={f.code}
+                                                selected={filters[f.id]}
+                                                onClick={(group, value) => {
+                                                    if (filters[group.id]?.includes(value.id))
+                                                        removeFilter(group, value);
+                                                    else applyFilter(group, value);
+                                                }}
+                                            />
+                                        ))}
+                     </Stack>
+
+
+
+						  
                     <MainGrid>
                         {products?.map(p => <ProductTile collections={props.collections} product={p} key={p.slug} />)}
                     </MainGrid>
+						  </Devide>
                     <Pagination
                         page={paginationInfo.currentPage}
                         changePage={changePage}
@@ -126,10 +147,20 @@ const CollectionPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> =
 const Wrapper = styled(Stack)`
     flex-direction: column;
     gap: 2rem;
+	 width: 100%;
     @media (min-width: ${p => p.theme.breakpoints.xl}) {
         flex-direction: row;
     }
+	
 `;
+
+const Devide = styled(Stack)`
+	 display: flex;
+	 width: 100%;
+`;
+
+
+
 
 const RelativeStack = styled(Stack)`
     position: relative;

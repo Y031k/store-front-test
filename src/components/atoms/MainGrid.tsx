@@ -5,4 +5,5 @@ export const MainGrid = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(min(100%, max(240px, 100%/5)), 1fr));
     gap: 1.5rem;
     row-gap: 4rem;
+	 width: 75%;
 `;
