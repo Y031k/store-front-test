@@ -1,0 +1,13 @@
+{
+	"search-results": "Meklēšanas rezultāti",
+	"filters": "Filtri",
+	"sort-by": "Kārtot pēc",
+	"sort-keys": {
+		"title": "Nosaukums",
+		"price": "Cena"
+	},
+	"sort-directions": {
+		"ASC": "No zemākās uz augstāko",
+		"DESC": "No augstākās uz zemāko"
+	}
+}

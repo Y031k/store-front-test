@@ -10,7 +10,8 @@ export function priceFormatter(price: number, currencyCode: CurrencyCode) {
             country: 'en-US',
         },
         [CurrencyCode.EUR]: {
-            country: 'de-DE',
+            country: 'de-DE' ,
+
         },
         [CurrencyCode.PLN]: {
             country: 'pl-PL',

@@ -1,0 +1,160 @@
+{
+	"seoTitles": {
+		"checkout": "Izrakstīšanās",
+		"payment": "Maksājums",
+		"confirmation": "Apstiprinājums"
+	},
+	"steps": {
+		"shipping": "Piegāde",
+		"payment": "Maksājums",
+		"confirmation": "Apstiprinājums"
+	},
+	"orderForm": {
+		"emptyCart": "Jūsu grozs ir tukšs",
+		"emptyCartDescription": "Jūsu iepirkumu grozā nav preču. Noklikšķiniet <1>šeit</1>, lai turpinātu iepirkties.",
+		"whatAccountGives": "Konts sniedz piekļuvi jūsu pasūtījumu vēsturei un statusam. Tas arī ļauj veikt izmaiņas jūsu personīgajos datos un adresēs.",
+		"createAccount": "Izveidot kontu?",
+		"password": "Parole",
+		"confirmPassword": "Apstipriniet paroli",
+		"shippingDifferentThanBilling": "Vai piegādes adrese atšķiras no norēķinu adreses?",
+		"userNeedInvoice": "Vai jums nepieciešams rēķins?",
+		"orderSummary": "Pasūtījuma kopsavilkums",
+		"contactInfo": "Kontaktinformācija",
+		"emailAddress": "E-pasta adrese",
+		"firstName": "Vārds",
+		"lastName": "Uzvārds",
+		"phone": "Tālrunis",
+		"shippingInfo": "Piegādes informācija",
+		"billingInfo": "Norēķinu informācija",
+		"NIP": "PVN numurs",
+		"fullName": "Pilns vārds",
+		"company": "Uzņēmums",
+		"individual": "Privātpersona",
+		"streetLine1": "Adrese",
+		"streetLine2": "Dzīvoklis, birojs utt.",
+		"city": "Pilsēta",
+		"countryCode": "Valsts",
+		"province": "Novads / Reģions",
+		"postalCode": "Pasta indekss",
+		"continueToPayment": "Turpināt uz maksājumu",
+		"continueShopping": "Turpināt iepirkties",
+		"regulations": "Es piekrītu <1>noteikumiem</1>.",
+		"terms": "Es piekrītu <1>noteikumiem un nosacījumiem</1>.",
+		"placeholders": {
+			"emailAddress": "E-pasta adrese",
+			"firstName": "Vārds",
+			"lastName": "Uzvārds",
+			"phoneNumber": "Tālruņa numurs",
+			"phone": "Tālrunis",
+			"fullName": "Pilns vārds",
+			"company": "Uzņēmums",
+			"streetLine1": "Adrese",
+			"streetLine2": "Dzīvoklis, birojs utt.",
+			"city": "Pilsēta",
+			"countryCode": "Valsts",
+			"province": "Novads / Reģions",
+			"postalCode": "Pasta indekss",
+			"NIP": "PVN numurs",
+			"password": "Parole",
+			"confirmPassword": "Apstipriniet paroli"
+		},
+		"errors": {
+			"root": {
+				"invalid": "Iesniedzot veidlapu, radās kļūda. Lūdzu, izlabojiet zemāk norādītās kļūdas",
+				"closeButton": "Aizvērt"
+			},
+			"emailAddress": {
+				"required": "E-pasta adrese ir obligāta",
+				"email": "E-pasta adrese ir nederīga"
+			},
+			"firstName": {
+				"required": "Vārds ir obligāts"
+			},
+			"lastName": {
+				"required": "Uzvārds ir obligāts"
+			},
+			"phone": {
+				"required": "Tālrunis ir obligāts"
+			},
+			"fullName": {
+				"required": "Pilns vārds ir obligāts"
+			},
+			"company": {
+				"required": "Uzņēmums ir obligāts"
+			},
+			"streetLine1": {
+				"required": "Adrese ir obligāta"
+			},
+			"streetLine2": {
+				"required": "Dzīvoklis, birojs utt. ir obligāts"
+			},
+			"city": {
+				"required": "Pilsēta ir obligāta"
+			},
+			"countryCode": {
+				"required": "Valsts ir obligāta"
+			},
+			"province": {
+				"required": "Novads / Reģions ir obligāts"
+			},
+			"postalCode": {
+				"required": "Pasta indekss ir obligāts"
+			},
+			"terms": {
+				"required": "Noteikumi un nosacījumi ir obligāti"
+			},
+			"regulations": {
+				"required": "Noteikumi ir obligāti"
+			},
+			"NIP": {
+				"required": "PVN numurs ir obligāts"
+			},
+			"password": {
+				"required": "Parole ir obligāta"
+			},
+			"confirmPassword": {
+				"required": "Apstiprinājuma parole ir obligāta",
+				"notMatch": "Paroles nesakrīt"
+			}
+		}
+	},
+	"orderSummary": {
+		"title": "Pasūtījuma kopsavilkums",
+		"subtotal": "Starpsumma",
+		"discount": "Atlaide",
+		"shipping": "Piegāde",
+		"total": "Kopā",
+		"quantity": "Daudzums",
+		"remove": "Noņemt",
+		"customerAlsoBought": {
+			"title": "Klienti arī iegādājās",
+			"addToOrder": "Pievienot pasūtījumam"
+		}
+	},
+	"deliveryMethod": {
+		"title": "Piegādes metode",
+		"required": "*(Viena no piegādes metodēm ir obligāta)",
+		"errors": {
+			"required": "Piegādes metode ir obligāta"
+		}
+	},
+	"paymentMethod": {
+		"title": "Šis ir demonstrācijas nolūkiem paredzēts maksājums",
+		"submit": "Iesniegt maksājumu",
+		"notAvailable": "Noklusējuma maksājuma metode nav pieejama",
+		"success": "Atgriešanās veiksmīga",
+		"error": "Atgriešanās kļūda",
+		"selectToContinue": "Izvēlieties maksājuma metodi, lai turpinātu",
+		"decline": "Atgriešanās atteikta",
+		"dummyMethods": {
+			"success": "Demonstrācijas maksājums veiksmīgs",
+			"error": "Demonstrācijas maksājuma kļūda",
+			"decline": "Demonstrācijas maksājums atteikts"
+		}
+	},
+	"confirmation": {
+		"orderReceived": "Jūsu pasūtījums <1>{{code}}</1> ir saņemts",
+		"orderCancelled": "Jūsu pasūtījums <1>{{code}}</1> ir atcelts",
+		"orderNotFound": "Pasūtījums nav atrasts"
+	}
+}

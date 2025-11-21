@@ -1,0 +1,15 @@
+{
+    "add-to-cart": "Pievienot grozam",
+    "buy-now": "Pirkt tagad",
+    "sku": "SKU",
+    "best-seller": "Vislabāk pārdotais",
+    "description": "Produkta apraksts",
+    "details": "Produkta detaļas",
+    "stock-levels": {
+        "in-stock": "Ir noliktavā",
+        "out-of-stock": "Nav noliktavā",
+        "low-stock": "Pasteidzieties, atlikušas tikai {{value}} vienības! 🔥"
+    },
+    "recently-viewed": "Nesen skatītie",
+    "clients-also-bought": "Klienti arī iegādājās"
+}

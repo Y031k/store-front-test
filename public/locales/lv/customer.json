@@ -1,0 +1,33 @@
+{
+	"home": "Sākums",
+	"signIn": "Pieteikties",
+	"signInTitle": "Pieslēdzieties savam kontam",
+	"signUp": "Reģistrēties",
+	"signUpTitle": "Izveidojiet jaunu kontu",
+	"signOut": "Izrakstīties",
+	"resetPasswordTitle": "Atiestatīt paroli",
+	"addressesPageTitle": "Adreses",
+	"username": "Lietotājvārds",
+	"password": "Parole",
+	"rememberMe": "Atcerēties mani",
+	"confirmPassword": "Apstipriniet paroli",
+	"forgotPassword": "Aizmirsi paroli?",
+	"forgotPasswordTitle": "Atiestatīt paroli",
+	"email": "E-pasta adrese",
+	"newPassword": "Jauna parole",
+	"confirmNewPassword": "Apstipriniet jauno paroli",
+	"resetPassword": "Atiestatīt paroli",
+	"signUpSuccess": "Jūs veiksmīgi reģistrējāties, lūdzu, pārbaudiet savu e-pastu, lai verificētu savu kontu",
+	"forgotPasswordSuccess": "Mēs nosūtījām jums e-pastu ar instrukcijām paroles atiestatīšanai",
+	"verify": {
+		 "success": "Jūsu konts ir verificēts",
+		 "fail": "Jūsu kontu nevarēja verificēt",
+		 "title": "Verificējiet savu kontu"
+	},
+	"navigation": {
+		 "manageAccount": "Pārvaldīt kontu",
+		 "manageAddresses": "Pārvaldīt adreses",
+		 "manageOrders": "Pārvaldīt pasūtījumus",
+		 "logout": "Izrakstīties"
+	}
+}

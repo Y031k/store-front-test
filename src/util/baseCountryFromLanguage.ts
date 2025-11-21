@@ -8,6 +8,8 @@ export const baseCountryFromLanguage = (language: string) => {
             return 'DE';
         case 'pl':
             return 'PL';
+			case 'lv':	
+				return 'LV';
         default:
             return 'US';
     }
