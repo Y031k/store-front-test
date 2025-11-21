@@ -60,7 +60,7 @@ export const ProductTile: React.FC<{
                         <ProductName>{product.productName}</ProductName>
                     </Link>
                 </Stack>
-                <ProductPrice gap="0.35rem">
+                <ProductPrice gap="0.25rem">
                     <ProductPriceValue>{priceValue}</ProductPriceValue>
                 </ProductPrice>
             </Stack>
